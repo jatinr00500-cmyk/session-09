@@ -1,0 +1,91 @@
+/* Basic page settings */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+/* Main container */
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Header */
+.profile-header {
+    background-color: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.main-heading {
+    font-size: 40px;
+    margin: 0;
+}
+
+.tagline {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Sections */
+.profile-section {
+    background-color: white;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    color: #2563eb;
+    font-size: 28px;
+}
+
+/* About text */
+.about-text {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* Skills */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill {
+    background-color: #e0e7ff;
+    color: #1e40af;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+/* Projects */
+.project-card {
+    background-color: #f8fafc;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+.project-title {
+    color: #2563eb;
+}
+
+.project-description {
+    line-height: 1.6;
+}
+
+/* Footer */
+.profile-footer {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
